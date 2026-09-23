@@ -1,0 +1,5 @@
+anydesk-bin
+caelestia-shell
+google-chrome
+papirus-folders
+visual-studio-code-bin

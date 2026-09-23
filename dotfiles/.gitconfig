@@ -1,0 +1,11 @@
+[user]
+	email = joaopedromoraessilva137@gmail.com
+	name = Joaodev-19
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
+[fetch]
+	prune = true
+[push]
+	autoSetupRemote = true

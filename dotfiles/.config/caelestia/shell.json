@@ -1,0 +1,73 @@
+{
+    "appearance": {
+        "transparency": {
+            "base": 0.85,
+            "enabled": true,
+            "layers": 0.45
+        }
+    },
+    "bar": {
+        "persistent": true,
+        "statusIcons": [
+            {
+                "enabled": true,
+                "id": "lockStatus"
+            },
+            {
+                "enabled": true,
+                "id": "network"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": false,
+                "id": "battery"
+            }
+        ],
+        "workspaces": {
+            "shown": 5
+        }
+    },
+    "dashboard": {
+        "enabled": true,
+        "performance": {
+            "showBattery": false,
+            "showCpu": true,
+            "showGpu": true,
+            "showMemory": true,
+            "showNetwork": true,
+            "showStorage": true
+        },
+        "showDashboard": true,
+        "showMedia": true,
+        "showPerformance": true,
+        "showWeather": true
+    },
+    "general": {
+        "apps": {
+            "audio": [
+                "pavucontrol"
+            ],
+            "explorer": [
+                "thunar"
+            ],
+            "terminal": [
+                "kitty"
+            ]
+        }
+    },
+    "launcher": {
+        "showOnHover": false
+    },
+    "paths": {
+        "wallpaperDir": "~/Pictures/Wallpapers"
+    },
+    "services": {
+        "gpuType": "nvidia",
+        "useFahrenheit": false,
+        "useTwelveHourClock": false,
+        "weatherLocation": "Porto Velho"
+    }
+}

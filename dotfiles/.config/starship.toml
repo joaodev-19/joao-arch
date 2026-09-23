@@ -1,0 +1,45 @@
+format = """
+$directory\
+$git_branch\
+$git_status\
+$python\
+$nodejs\
+$rust\
+$docker_context\
+$character
+"""
+
+add_newline = false
+
+[directory]
+truncation_length = 3
+truncate_to_repo = true
+style = "bold blue"
+
+[git_branch]
+symbol = " "
+style = "bold purple"
+
+[git_status]
+style = "bold red"
+
+[python]
+symbol = " "
+style = "yellow"
+
+[nodejs]
+symbol = " "
+style = "green"
+
+[rust]
+symbol = " "
+style = "red"
+
+[docker_context]
+symbol = " "
+style = "blue"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+vimcmd_symbol = "[❮](bold yellow)"

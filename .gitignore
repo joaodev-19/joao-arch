@@ -1,0 +1,17 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Runtime/generated
+.cache/
+.local/state/
+dotfiles/.config/hypr/scheme/current.lua
+
+# Private keys / credentials
+.ssh/
+.gnupg/
+*credentials*
+*token*
+*secret*
