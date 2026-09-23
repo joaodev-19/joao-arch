@@ -15,3 +15,6 @@ dotfiles/.config/hypr/scheme/current.lua
 *credentials*
 *token*
 *secret*
+
+# Generated theme
+dotfiles/.config/hypr/scheme/current.lua

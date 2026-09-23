@@ -1,7 +1,4 @@
 hl.on("hyprland.start", function()
-    hl.exec_cmd("awww-daemon")
     hl.exec_cmd("systemctl --user start hyprpolkitagent.service")
-    hl.exec_cmd("hyprctl dispatch focusmonitor DP-1")
     hl.exec_cmd("caelestia shell -d")
-    hl.exec_cmd("env QS_ICON_THEME=Papirus-Dark caelestia shell -d") 
 end)

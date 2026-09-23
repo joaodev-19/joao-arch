@@ -1,8 +1,10 @@
-require("config.monitors")
+pcall(require, "config.monitors")
 require("config.binds")
 require("config.misc")
 require("config.env")
+pcall(require, "config.env_machine")
 require("config.autostart")
+pcall(require, "config.autostart_machine")
 -----------------------
 ----- PERMISSIONS -----
 -----------------------
